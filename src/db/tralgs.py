@@ -5,6 +5,12 @@ def rebuild_tables():
     exec_sql_file('src/db/tralgs.sql')
 
 
+def home():
+    navigation = {"Home": "/", "Games": "/games", "Specific Game": "games/_", "Players": "/players",
+                "Specific Player": "/players/_", "Record": "/record"}
+    return navigation
+
+
 def list_games():
     select = """SELECT * FROM games"""
     values = exec_get_all(select, {})

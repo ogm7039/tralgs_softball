@@ -1,6 +1,10 @@
 from flask_restful import Resource
 from db import tralgs
 
+class tralgs_api_home(Resource):
+    def get(self):
+        return tralgs.home()
+
 
 class tralgs_api_games(Resource):
     def get(self):

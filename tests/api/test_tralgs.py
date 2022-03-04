@@ -7,6 +7,12 @@ class TestTralgs(unittest.TestCase):
     def setUp(self):
         rebuild_tables()
 
+    def test_navigation(self):
+        expected = {"Home" : "/", "Games" : "/games", "Specific Game" : "games/_", "Players" : "/players",
+                    "Specific Player" : "/players/_", "Record" : "/record"}
+        actual = get_rest_call(self, 'http://127.0.0.1:5000/')
+        self.assertEqual(expected, actual)
+
     def test_games(self):
         expected = [{"Date": "05/27/2022", "Time": "6:00", "Opponent": "Dodgers", "Tralgs": 0, "Opp": 0, "Win": False},
                     {"Date": "06/03/2022", "Time": "7:15", "Opponent": "Mets", "Tralgs": 0, "Opp": 0, "Win": False},
