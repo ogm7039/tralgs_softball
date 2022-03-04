@@ -58,10 +58,10 @@ def list_players():
 
         feet = str(value[5] // 12)
         inches = str(value[5] % 12)
-        height_string = str(feet + "'" + inches + '"')
+        height_string = str(feet + " feet " + inches + ' inches')
 
         my_dict.update({'Height': height_string})
-        my_dict.update({'Weight': value[6]})
+        my_dict.update({'Weight': str(value[6]) + " lbs"})
         my_dict.update({'Hometown': value[7]})
         my_dict.update({'College': value[8]})
         my_list.append(my_dict)
