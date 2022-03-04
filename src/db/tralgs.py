@@ -50,9 +50,9 @@ def list_players():
         my_dict.update({'Position': value[3]})
         my_dict.update({'Number': value[4]})
 
-        feet = value[5] // 12
-        inches = value[5] % 12
-        height_string = (feet, "'", inches, '"')
+        feet = str(value[5] // 12)
+        inches = str(value[5] % 12)
+        height_string = str(feet + "'" + inches + '"')
 
         my_dict.update({'Height': height_string})
         my_dict.update({'Weight': value[6]})
@@ -65,7 +65,7 @@ def list_players():
 
 def list_player_stats(id):
     id = int(id)
-    select = """SELECT name, average, hits, rbi, hr FROM stats INNER JOIN players ON stats.player_id = player.id 
+    select = """SELECT name, average, hits, rbi, hr FROM stats INNER JOIN players ON stats.player_id = players.id 
     WHERE player_id=%(_id)s"""
     values = exec_get_one(select, {'_id': id})
 
@@ -91,5 +91,5 @@ def get_record():
         else:
             losses = losses + 1
 
-    record_string = (wins, ' - ', losses)
+    record_string = str(wins) + ' - ' + str(losses)
     return record_string
