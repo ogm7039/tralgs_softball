@@ -14,7 +14,7 @@ class Roster extends Component
 
         this.state = {
             players:
-                [[0, 'Owen Manley', 'Ralb', 'Second Base', 8, 6, 0, 180, 'Rochester, NY', 'RIT'],
+                [[0, 'Owen Manley', 'Ralb', 'Second Base', 8, 6, 0, 175, 'Rochester, NY', 'RIT'],
                 [1, 'Kyle Wilson', 'Krag', 'Short Stop', 2, 6, 0, 180, 'Rochester, NY', 'UB'],
                 [2, 'Brady Bodamer', 'Brad', 'First Base', 15, 6, 0, 225, 'Rochester, NY', 'HVAC'],
                 [3, 'Zach Fichtner', 'Frank', 'Pitcher', 16, 6, 4, 180, 'Rochester, NY', 'CWRU'],
@@ -25,15 +25,10 @@ class Roster extends Component
                 [8, 'Randy Schmitt', 'Rusty', 'Designated Hitter', 11, 6, 0, 180, 'Rochester, NY', 'MCC'],
                 [9, 'Greg Manley', 'Gerg', 'Designated Hitter', 14, 6, 0, 180, 'Rochester, NY', 'BCC'],
                 [10, 'Conor Palmer', 'Palms', 'Left Field', 72, 6, 0, 205, 'Rochester, NY', 'JCU'],
-                [11, 'Sal Volcano', 'Sal', 'God Himself', 69, 6, 0, 205, 'Rochester, NY', 'JCU']]
+                [11, 'Sal Volcano', 'Sal', 'God Himself', 69, 6, 0, 205, 'Rochester, NY', 'IMPJ']]
         };
     }
 
-    oneRow = (index) => {
-        return(
-            <PlayerRow player={this.state.players[index]} />
-        )
-    }
     oneRow = (index) => {
         if (index % 2 === 0){
             return(
@@ -66,8 +61,8 @@ class Roster extends Component
                 <Headings />
                 <Row>
                     <Col xs="1"/>
-                    <Col className="Black">
-                        <Row className={this.props.shade}>
+                    <Col>
+                        <Row className="Black">
                             <Col xs="2"> Name </Col>
                             <Col xs="1"> Nickname </Col>
                             <Col xs="2"> Position </Col>

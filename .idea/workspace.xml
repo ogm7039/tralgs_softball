@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fafd0b0a-9c00-4035-8bec-a0ca9211e931" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/PlayerRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tralgs-react/src/GameRow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tralgs-react/src/Roster.js" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/Roster.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tralgs-react/src/Tralgs.css" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/Tralgs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tralgs-react/src/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/Schedule.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651182119005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First pass at roster is implemented">
+      <created>1651184825982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651184825982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -100,7 +107,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created react-app and have first pass at basic implementation of pages" />
     <MESSAGE value="Home and Tickets page are created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home and Tickets page are created" />
+    <MESSAGE value="First pass at roster is implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="First pass at roster is implemented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="422" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650814527230">
@@ -111,11 +119,11 @@
       <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="425" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.804@0.25.1440.804" timestamp="1646408480443" />
-    <state x="459" y="133" key="RollbackChangesDialog" timestamp="1651171479353">
+    <state x="459" y="133" key="RollbackChangesDialog" timestamp="1651185001306">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.805@0.25.1440.805" timestamp="1646409833034" />
-    <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.807@0.25.1440.807" timestamp="1651171479353" />
+    <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.807@0.25.1440.807" timestamp="1651185001306" />
     <state x="397" y="164" key="Vcs.Push.Dialog.v2" timestamp="1651182121224">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
