@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fafd0b0a-9c00-4035-8bec-a0ca9211e931" name="Default Changelist" comment="" />
+    <list default="true" id="fafd0b0a-9c00-4035-8bec-a0ca9211e931" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tralgs-react/src/GameRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/GameRow.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651186782656</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added padding">
+      <created>1651187203717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651187203717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -111,7 +120,8 @@
     <MESSAGE value="Home and Tickets page are created" />
     <MESSAGE value="First pass at roster is implemented" />
     <MESSAGE value="First pass at schedule is implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="First pass at schedule is implemented" />
+    <MESSAGE value="added padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="added padding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="422" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650814527230">
@@ -127,10 +137,10 @@
     </state>
     <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.805@0.25.1440.805" timestamp="1646409833034" />
     <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.807@0.25.1440.807" timestamp="1651185001306" />
-    <state x="397" y="164" key="Vcs.Push.Dialog.v2" timestamp="1651186786189">
+    <state x="397" y="164" key="Vcs.Push.Dialog.v2" timestamp="1651187205100">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
-    <state x="397" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1651186786189" />
+    <state x="397" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1651187205100" />
     <state x="352" y="153" width="670" height="679" key="search.everywhere.popup" timestamp="1651183257004">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
