@@ -1,0 +1,12 @@
+.Tralgs-logo {
+  height: 75px;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.navbar-nav > li{
+  padding-left:50px;
+  padding-right:50px;
+}

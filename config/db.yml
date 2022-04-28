@@ -1,0 +1,5 @@
+host: localhost
+database: tralgs
+user: tralgs
+password: Softball1234!
+port: 5433

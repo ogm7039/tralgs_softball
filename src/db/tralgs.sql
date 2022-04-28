@@ -36,15 +36,15 @@ CREATE TABLE stats(
 INSERT INTO players(name, nick_name, f_position, number, height_inches, weight_pounds, hometown, college) VALUES
 ('Owen Manley', 'Ralb', 'Second Base', 8, 72, 180, 'Rochester, NY', 'RIT'),
 ('Kyle Wilson', 'Krag', 'Short Stop', 2, 72, 180, 'Rochester, NY', 'UB'),
-('Brady Bodamer', 'Brad', 'First Base', 15, 72, 180, 'Rochester, NY', 'HVAC'),
-('Zach Fichtner', 'Frank', 'Pitcher', 16, 72, 180, 'Rochester, NY', 'CWRU'),
+('Brady Bodamer', 'Brad', 'First Base', 15, 72, 225, 'Rochester, NY', 'HVAC'),
+('Zach Fichtner', 'Frank', 'Pitcher', 16, 76, 180, 'Rochester, NY', 'CWRU'),
 ('Jacob Logothetis', 'Cobes', 'Catcher', 13, 72, 180, 'Rochester, NY', 'UB'),
 ('John Zajac', 'Jag', 'Center Field', 19, 72, 180, 'Rochester, NY', 'UB'),
 ('Ethan Degrandis', 'Slosh', 'Third Base', 7, 72, 180, 'Rochester, NY', 'CWRU'),
 ('Alex Nasca', 'Nascar', 'Right Field', 6, 72, 180, 'Rochester, NY', 'RIT'),
 ('Randy Schmitt', 'Rusty', 'Designated Hitter', 11, 72, 180, 'Rochester, NY', 'MCC'),
 ('Greg Manley', 'Gerg', 'Designated Hitter', 14, 72, 180, 'Rochester, NY', 'BCC'),
-('Conor Palmer', 'Palms', 'Left Field', 72, 72, 180, 'Rochester, NY', 'JCU');
+('Conor Palmer', 'Palms', 'Left Field', 72, 70, 205, 'Rochester, NY', 'JCU');
 
 INSERT INTO games(game_date, game_time, opponent) VALUES
 ('05/27/2022', '6:00', 'Dodgers'),
