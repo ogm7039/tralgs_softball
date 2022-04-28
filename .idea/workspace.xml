@@ -20,17 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fafd0b0a-9c00-4035-8bec-a0ca9211e931" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/Headings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/Pictures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/Roster.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/Schedule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/Tickets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tralgs-react/src/Tralgs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tralgs_softball.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tralgs_softball.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/tralgs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/tralgs.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tralgs-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tralgs-react/src/Headings.js" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/Headings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tralgs-react/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tralgs-react/src/Tickets.js" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/Tickets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tralgs-react/src/Tralgs.css" beforeDir="false" afterPath="$PROJECT_DIR$/tralgs-react/src/Tralgs.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +67,14 @@
       <option name="presentableId" value="Default" />
       <updated>1646350808959</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created react-app and have first pass at basic implementation of pages">
+      <created>1651170892675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651170892675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -89,6 +92,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created react-app and have first pass at basic implementation of pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created react-app and have first pass at basic implementation of pages" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="422" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650814527230">
       <screen x="0" y="25" width="1440" height="805" />
@@ -98,18 +105,20 @@
       <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="425" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.804@0.25.1440.804" timestamp="1646408480443" />
-    <state x="459" y="133" key="RollbackChangesDialog" timestamp="1646409833034">
-      <screen x="0" y="25" width="1440" height="805" />
-    </state>
-    <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.805@0.25.1440.805" timestamp="1646409833034" />
-    <state x="397" y="164" key="Vcs.Push.Dialog.v2" timestamp="1646351714555">
+    <state x="459" y="133" key="RollbackChangesDialog" timestamp="1651171479353">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
-    <state x="397" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1646351714555" />
-    <state x="352" y="153" width="670" height="677" key="search.everywhere.popup" timestamp="1650811132405">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.805@0.25.1440.805" timestamp="1646409833034" />
+    <state x="459" y="133" key="RollbackChangesDialog/0.25.1440.807@0.25.1440.807" timestamp="1651171479353" />
+    <state x="397" y="164" key="Vcs.Push.Dialog.v2" timestamp="1651170894159">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="397" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1651170894159" />
+    <state x="352" y="153" width="670" height="679" key="search.everywhere.popup" timestamp="1651181734127">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="352" y="153" width="670" height="676" key="search.everywhere.popup/0.25.1440.804@0.25.1440.804" timestamp="1646408165758" />
     <state x="352" y="153" width="670" height="677" key="search.everywhere.popup/0.25.1440.805@0.25.1440.805" timestamp="1650811132405" />
+    <state x="352" y="153" width="670" height="679" key="search.everywhere.popup/0.25.1440.807@0.25.1440.807" timestamp="1651181734127" />
   </component>
 </project>

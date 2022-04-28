@@ -13,7 +13,28 @@ class Tickets extends Component
         return(
             <Container>
                 <Headings />
-                TICKETS
+                <Row>
+                    <Col xs="1"/>
+                    <Col className="White">
+                        <h1> Tickets </h1>
+                        <br />
+                        They're free
+                        <br />.<br />.<br />
+                        Literally just show up.
+                        <br />.<br />
+                        No one can stop you.
+                        <br />.<br />
+                        Cobbs Hill Park
+                        <br />.<br />.<br />
+                        Thurday Nights
+                    </Col>
+                    <Col xs="1"/>
+                </Row>
+                <Row className="Back">
+                    <Col>
+                        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                    </Col>
+                </Row>
             </Container>
         )
     }

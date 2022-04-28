@@ -10,3 +10,12 @@
   padding-left:50px;
   padding-right:50px;
 }
+
+.Back {
+    background-color: WhiteSmoke;
+}
+
+.White {
+    background-color: white;
+    text-align: center;
+}

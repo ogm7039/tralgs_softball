@@ -38,7 +38,7 @@ class Headings extends React.Component {
     render() {
         return (
             <div>
-            <Navbar color="light" light expand="md">
+            <Navbar color="WhiteSmoke" light expand="md">
                 <NavbarBrand href="/"> <img src={logo} className="Tralgs-logo" alt="logo" /> </NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>

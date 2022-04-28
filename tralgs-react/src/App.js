@@ -10,7 +10,7 @@ import {Route, Routes, Link} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className="Back">
         <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/schedule" element={<Schedule />} />
