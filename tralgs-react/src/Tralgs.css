@@ -19,3 +19,24 @@
     background-color: white;
     text-align: center;
 }
+
+.Light {
+    background-color: white;
+    border-style: solid;
+    border-color: WhiteSmoke;
+    color: black
+}
+
+.Dark {
+    background-color: WhiteSmoke;
+    border-style: solid;
+    border-color: WhiteSmoke;
+    color: black
+}
+
+.Black {
+    background-color: gray;
+    border-style: solid;
+    border-color: WhiteSmoke;
+    color: white
+}
