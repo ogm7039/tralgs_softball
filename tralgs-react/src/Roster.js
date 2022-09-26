@@ -22,8 +22,7 @@ class Roster extends Component
                 [7, 'Alex Nasca', 'Nascar', 'Right Field', 6, 6, 0, 180, 'Rochester, NY', 'RIT'],
                 [8, 'Randy Schmitt', 'Rusty', 'Designated Hitter', 11, 6, 0, 180, 'Rochester, NY', 'MCC'],
                 [9, 'Greg Manley', 'Gerg', 'Designated Hitter', 14, 6, 0, 180, 'Rochester, NY', 'BCC'],
-                [10, 'Conor Palmer', 'Palms', 'Left Field', 72, 6, 0, 205, 'Rochester, NY', 'JCU'],
-                [11, 'Sal Volcano', 'Sal', 'God Himself', 69, 6, 0, 205, 'Rochester, NY', 'IMPJ']]
+                [10, 'Conor Palmer', 'Palms', 'Left Field', 72, 6, 0, 205, 'Rochester, NY', 'JCU']]
         };
     }
 
